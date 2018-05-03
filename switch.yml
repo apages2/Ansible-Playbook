@@ -8,4 +8,4 @@
       - name: Build configs
         template:
           src=templates/switches.j2
-dest=configs/{{inventory_hostname}}.conf
+          dest=configs/{{inventory_hostname}}.conf
