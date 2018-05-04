@@ -1,6 +1,6 @@
 ---
   - name: Build Router Templates
-    hosts: SWITCHES
+    hosts: SWITCHS
     connection: local
     gather_facts: no
 
