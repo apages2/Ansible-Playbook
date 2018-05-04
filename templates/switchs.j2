@@ -1,3 +1,4 @@
+conf t
 !Remove the defaults
 no username cisco
 no banner login
@@ -33,8 +34,3 @@ interface {{interface}}
 ip address {{ipaddress}} {{netmask}}
 no shut
 exit
-
-!Default Gateway
-ip route 0.0.0.0 0.0.0.0 {{gateway}}
-ip defaulte-gateway {{gateway}}
-
