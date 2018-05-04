@@ -7,4 +7,3 @@
       - name: Build configs
         template:
           src=templates/switchs.j2
-          dest=/home/administrator/configs/{{inventory_hostname}}.conf
